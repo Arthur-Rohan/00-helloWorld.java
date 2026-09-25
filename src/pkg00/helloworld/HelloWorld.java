@@ -33,16 +33,27 @@ public class HelloWorld {
        y=z;
        System.out.println("Apres permutation : x="+x+" y="+y); //Affiche X et Y Apres permutation*/
        
-        Scanner sc = new Scanner(System.in);
-        int a;
-        int b;
-        int x;
+        /*Scanner sc = new Scanner(System.in);   //Exercice 5   
+        float a;
+        float b;
+        float x;
         System.out.print("Saisir a :"); //Saisir a
         a = sc.nextInt();
         System.out.print("Saisir b :"); //Saisir b
         b = sc.nextInt();
-        x=((a+b)*2);  //Calcule du résultat
-        System.out.println(x); //Affiche juste le résultat
+        x=((a+b)*2);  //Calcule du résultat et définir sur x
+        System.out.println(x); //Affiche juste le résultat*/
+        
+        int x;
+        
+        
+        do {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("1: Bonjour");
+            System.out.println("2: Au revoir");
+            System.out.println("0: Quitter");
+            x = sc.nextInt();
+        } while(x!=0);
     }
    
 }
