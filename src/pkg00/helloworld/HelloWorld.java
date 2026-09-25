@@ -15,21 +15,21 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         /*Programme 2 lignes
-        System.out.println("Hello");
+        System.out.println("Hello");     //2) Affichage message sur 2 lignes
         System.out.println("World");*/
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);  //4) Permutation variables
         int x;
         int y;
         int z;
-        System.out.print("Saisir x :");
+        System.out.print("Saisir x :"); //Saisir X
         x = sc.nextInt();
-        System.out.print("Saisir y :");
+        System.out.print("Saisir y :"); //Saisir Y
         y = sc.nextInt();
-        System.out.println("Avant permutation : x="+x+" y="+y);
+        System.out.println("Avant permutation : x="+x+" y="+y); //Afficher X et Y Avant permutation
        z=x;
-       x=y;
+       x=y; //Inverse X et Y grace a la troisieme variable Z
        y=z;
-       System.out.println("Apres permutation : x="+x+" y="+y);
+       System.out.println("Apres permutation : x="+x+" y="+y); //Affiche X et Y Apres permutation
                
     }
    
