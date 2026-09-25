@@ -20,12 +20,17 @@ public class HelloWorld {
         Scanner sc = new Scanner(System.in);
         int x;
         int y;
+        int z;
         System.out.print("Saisir x :");
         x = sc.nextInt();
         System.out.print("Saisir y :");
         y = sc.nextInt();
-        System.out.print("Avant permutation : x="+x+" y="+y);
-        System.out.print("Apres permutation : x="+y+" y="+x);
+        System.out.println("Avant permutation : x="+x+" y="+y);
+       z=x;
+       x=y;
+       y=z;
+       System.out.println("Apres permutation : x="+x+" y="+y);
+               
     }
-    
+   
 }
